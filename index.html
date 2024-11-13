@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Uma manhã de sol</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Em uma manhã de sol, Josefa abre seus olhos e pensa "devo me levantar para me arrumar para escola?".</p>
+            <button class="btn-proximo" data-proximo="1">Sim</button>
+            <button class="btn-proximo" data-proximo="2">Não</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>"e agora?"</p>
+            <button class="btn-proximo" data-proximo="3">Levantar e tomar banho</button>
+            <button class="btn-proximo" data-proximo="4">Levantar e comer</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O que devo fazer?</p>
+            <button class="btn-proximo" data-proximo="5">Voltar dormir</button>
+            <button class="btn-proximo" data-proximo="6">Ir assistir televisão</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>A temperatura será fria?</p>
+            <button class="btn-proximo" data-proximo="7">Sim</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você vai comer ovos mexidos, bacon, suco de maracujá</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Acordou super tarde, e percebeu que não tinha comida</p>
+            <button class="btn-proximo" data-proximo="7">Vou pedir comida</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Liguei a televisão, entrei na netflix</p>
+            <button class="btn-proximo" data-proximo="8">Entrar na netflix</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>O que devo pedir?</p>
+            <button class="btn-proximo" data-proximo="9">Lanche</button>
+            <button class="btn-proximo" data-proximo="10">Macarrão</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>então irei assistir serie</p>
+            <button class="btn-proximo" data-proximo="7">Assistir até dormir</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Então quando você chegar irá tomar banho </p>
+            <button class="btn-proximo" data-proximo="12">Sim</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
